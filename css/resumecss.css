@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margi: opx;
+}
+
+h1
+{
+	text-align:center;
+	margin: 20px;
+}
+
+.resume-part table
+{
+	margin: 15px 20px;
+	margin-right: 30px;
+	
+	padding-right: 20px;
+}
+
+.resume-part tr
+{
+	margin-left: 30px;
+}
+.container
+{
+	/*border: 3px solid blue;*/
+	display: grid;
+	grid-template-columns: 80% 20%;
+	overflow: auto;
+	position: relative;
+	min-height: 100%;
+}
+
+.resume-part
+{
+	height: auto;
+	position: relative;
+	background-color: orange;
+	/*border: 5px dotted red;*/
+}
+
+.pp-part
+{
+	position: relative;
+	border-radius: 5px;
+	background-color: orange;
+	/*border: 5px dotted green;*/
+}
+
+.pp-part img
+
+{
+	height: 250px;
+	width: 225px;
+	border-radius: 25px;
+	background-color: orange;
+	border: 2px dotted black;
+}
+

@@ -1,0 +1,118 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html , body{
+	height:100%;
+}
+a:link
+{
+	text-decoration: underline;
+	color : blue;
+}
+ a:visited
+ {
+	color: brown;
+ }
+body{
+	position: relative;
+	padding-bottom: 200px;
+	min-height: 100vh;
+}
+
+
+
+
+.twocolomn
+{	
+	display:flex;
+	background-color:orange;
+	height: auto;
+	overflow: auto;
+	min-height: 100%;
+}
+
+.part1
+{
+	
+	padding-top:40px;
+	flex: 3;
+	margin-left:10px;
+}
+
+
+.three-column{
+		display: grid;
+		
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 5px;
+		grid-auto-rows;100px;
+	}
+	
+	
+	
+	.three-column{
+		display: grid;
+		color: black;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 5px;
+		grid-auto-rows;100px;
+	}
+	
+	.three-column > div
+	{
+		background: white;
+		padding: 5px;
+		border: 2px dotted white;
+		text-align: center;
+	}
+	.three-column > div:nth-child(odd)
+	{
+		background: orange;
+		padding: 2px;
+		border: 5px solid black;
+		width: 215px;
+		height: 145px;
+	}
+	.hobby > div
+	{
+		display: grid;
+		height: 60px;
+		width: 200px;
+		margin-top: 5px;
+		padding: 20px 10px;
+		border: 2px solid black;
+	}
+	
+	.hobby > div a:hover
+	{
+		background:white;
+		color: black;
+		border-radius: 5px;
+	}
+	.portal
+	{
+		background: orange;
+		height: auto;
+		width: 717px;
+	}
+	table{
+		float:left;
+	}
+	
+	table, th, td
+	{
+		background-color: orange;
+		width: 700px;
+		border: 1px solid black;
+		font-family: 'Krona One', sans-serif;
+		font-size: 18px;
+	}
+	
+	#gotop
+	{
+		float:left;
+	}

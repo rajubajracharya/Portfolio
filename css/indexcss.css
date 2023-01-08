@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html , body{
+	height:100%;
+}
+a:link
+{
+	text-decoration: underline;
+	color : blue;
+}
+ a:visited
+ {
+	color: brown;
+ }
+body{
+	position: relative;
+	padding-bottom: 200px;
+	min-height: 100vh;
+}
+
+#container{
+	min-height:100%;
+}
+
+#para
+{
+	color: black;
+	line-height: 42px;
+	padding-top: 50px;
+}
+
+.bodyContainer
+{
+	
+	position: relative;
+	Padding-bottom: 100px;
+	min-height: 100vh;
+}
+	
+.twocolomn
+{	
+	display:flex;
+	background-color:orange;
+	height: auto;
+	overflow: auto;
+	min-height: 100%;
+}
+.part1
+{
+	
+	padding-top:40px;
+	flex: 3;
+	margin-left:10px;
+}
+
+.part2
+{
+	padding-top: 150px;
+	flex: 1;
+	border-color: black;
+	border: 2px;
+	align: center;
+}
+
+.part2 img
+{
+	height: 400px;
+	width: 450px;
+	margin:0px 20px;
+	border-radius: 20%;
+	padding: 1px;
+	border: 5px solid black;
+}
+
+/*------Hobby Page----*/
+.three-column > div
+	{
+		background: red;
+		padding: 5px;
+	}
+.three-column > div:nth-child(odd)
+	{
+		background: orange;
+		padding: 2px;
+		border: 5px solid black;
+		width: 125px;
+		height: 145px;
+		
+.three-column
+	{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 5px;
+		grid-auto-rows;100px;
+	}
+	
+	
+	}
+	.hobby > div
+	{
+		display: grid;
+		height: 60px;
+		width: 110px;
+		margin-top: 5px;
+		padding: 20px 10px;
+		border: 2px solid black;
+	}
+	
+	.hobby > div a:hover
+	{
+		background:white;
+		color: black;
+		border-radius: 5px;
+	}
+	
+	.hobby img
+{
+	height: 400px;
+	width: 450px;
+	margin:0px 20px;
+	border-radius: 20%;
+	padding: 1px;
+	border: 5px solid black;
+}
+
+/*-----------contact me style------*/
+
+
+.con-container
+{	
+	display:flex;
+	/*background-color: red;*/
+	background-image: url('../images/screenshot.PNG');
+	height: auto;
+	overflow: auto;
+	min-height: 100%;
+}
+.con-part1
+{
+	
+	padding-top:40px;
+	flex: 2;
+	margin-left:50px;
+}
+
+
+.con-part2
+{
+	flex: 1;
+	border-color: black;
+	border: 2px;
+	align: center;
+	
+}
+
+.con-part2 img
+{
+	height: 400px;
+	width: 450px;
+	margin:0px 20px;
+	border-radius: 20%;
+	padding: 1px;
+	border: 5px solid black;
+}
+
+
