@@ -6,7 +6,7 @@
   <body>
 	
 	<?php
-	  include 'header.php';
+	  include 'header.html';
 	 ?>
 	 
 	
@@ -197,7 +197,7 @@
 
 	 <footer id="foot">
 	 <?php
-	  include 'footer.php';
+	  include 'footer.html';
 	 ?>
 	  </footer>
 	  
